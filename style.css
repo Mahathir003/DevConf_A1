@@ -121,3 +121,115 @@ header {
 .speaker_info p {
   color: gray;
 }
+
+
+
+.pricing {
+  width: 85%;
+  margin: 80px auto;
+}
+
+.pricing h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.pricing_subtitle {
+  text-align: center;
+  color: gray;
+  margin-bottom: 40px;
+}
+
+
+.pricing_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+
+.price_card {
+  background: white;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+.price_card_featured {
+  background: #142033;
+  color: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+.featured_btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.price_card h5,
+.price_card_featured h5 {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.price_card_featured h5 {
+  color: lightgray;
+}
+
+.price_card h3,
+.price_card_featured h3 {
+  font-size: 42px;
+  margin-bottom: 5px;
+}
+
+
+.price_text {
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.price_card_featured .price_text {
+  color: lightgray;
+}
+
+
+.price_card hr,
+.price_card_featured hr {
+  margin: 20px 0;
+}
+
+
+.price_card ul,
+.price_card_featured ul {
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+.price_card li,
+.price_card_featured li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+
+.outline_btn {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #2563eb;
+  background: white;
+  color: #2563eb;
+  border-radius: 6px;
+  cursor: pointer;
+}
